@@ -43,7 +43,7 @@ android {
     minSdkVersion(23)
     targetSdkVersion(29)
 
-    ndkVersion = "21.3.6528147"
+    ndkVersion = "21.4.7075529"
 
     versionCode = androidGitVersion.code()
     versionName = androidGitVersion.name()
