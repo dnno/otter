@@ -19,7 +19,7 @@ jobs:
         mkdir -p /home/runner/.android && touch /home/runner/.android/repositories.cfg
         ./gradlew assembleDebug
     - name: Create release
-      uses: eine/tip@gha-tip
+      uses: eine/tip@tip
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         cwd: ${{ github.workspace }}
